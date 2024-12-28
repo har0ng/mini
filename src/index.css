@@ -1,0 +1,21 @@
+:root{ 
+  --primaryColor:#90a959;
+  --secondColor: #E9B872;
+  --mainWhite:#fff;
+  --mainBlack:#222;
+  --mainRed:#c45151;
+  --mainGreen:#4caf50;
+}/*공통적인 변수를 만들 때 이렇게 만듦*/
+
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: var(--secondColor); /*변수명 지정은 var()을 통해 이뤄짐*/
+  color: var(--mainBlack);
+}
+h1{
+  margin: 1rem 0;
+}
